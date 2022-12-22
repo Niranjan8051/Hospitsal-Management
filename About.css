@@ -1,0 +1,266 @@
+*{
+    margin:0px;
+}
+#headerid{
+    position:sticky;
+    height:fit-content;
+    width: 100%;
+    /* border: solid 2px blue; */
+    display:inline-block;
+    background-color:dodgerblue;
+
+}
+#nav ul li{
+   
+    list-style:none;
+    margin-top: 1vw;
+    margin-right: 2vw;
+    padding: 0.1vw;
+    height:fit-content;
+    width:fit-content;
+    border: solid black 2px;
+    font-size:3vw;
+    float: right;
+    border-radius: 7px;
+    background-color:rgb(102, 151, 243);
+}
+#nav ul li:hover{
+    color:blue;
+    background-color:white
+    
+}
+#nav{
+   
+    /* border:solid green 2px; */
+    height:99%;
+    width: 70%;
+    float: right;
+    display: block;
+}
+#nav ul{
+    float: right;
+    /* border:solid yellow 2px; */
+    display: block;
+    width: 90%;
+    height: 90%;
+    
+   
+
+}
+#firstdiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height:100%;
+   
+    display:block;
+   
+   
+}
+#top{
+    display:block;
+    /* border: solid green 2px; */
+    font-size: 5vw;
+    height: 99%;
+    width: 100%;
+    margin: auto;
+}
+#seconddiv{
+    display:block;
+    /* border:solid yellowgreen 3px; */
+    height:99%;
+    width:35%;
+    font-style: unset;
+    border: solid red 2px;
+    text-align: center;
+    float: left;
+}
+#topimage{
+   /* border: solid orangered 1px; */
+   height: 99%;
+   width: 10%;
+   display: block;
+   float: left;
+   margin-left:0.05cm;
+}
+#logo{
+    height: 98%;
+    margin-left: 3vw;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#bodyfirstdiv{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: large;
+    width: 60%;
+    display: inline-block;
+    /* border: solid red 4px; */
+    padding:5px;
+}
+#firsth1{
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 6vw;
+    text-align: center;
+    margin-right: 11vw;
+}
+#firsth2{
+    margin-left: 10px;
+}
+span{
+    color:dodgerblue;
+}
+#bodyfirstdiv{
+    /* border: solid blue 2px ; */
+    margin:auto;
+    text-align: center;
+    float: left;
+   
+}
+#bodyseconddiv{
+    /* border: solid blue 3px; */
+   display:block;
+   margin-left: 1vw;
+   margin-top: 1vw;
+   border-radius: 30px;
+   float: left;
+   margin: auto;
+}
+#imageid{
+    height: 33vw;
+    width:30vw;
+    border-radius: 50%;
+    margin-top: 15vw;
+    margin-left: 1vw;
+}
+body{
+    /* border: solid brown 3px; */
+    
+}
+#about{
+    display:inline-block;
+    /* border: solid green 2px; */
+    font-size:3vw;
+    margin: auto;
+}
+#bodymaindiv{
+    margin-top: 10px;
+    display:inline-block;
+    /* border: solid 2px rgb(46, 46, 151); */
+}
+#photoslidingdiv{
+    /* border: 2px solid green; */
+    height: 42vw;
+    margin-top:-1vw;
+    /* border: solid blue 2px; */
+}
+#images{
+    display: inline-block;
+    height:42vw;
+    width: 100%;
+    margin-top: -4vw;
+}
+
+.para{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#mainfooter{
+    margin-top: 40px;
+    height: fit-content;
+    width: 100%;
+    background-color:dodgerblue;
+    /* border: solid black 3px;   */
+    display: flexbox;
+}
+#firstfooter{
+  /* border:solid green 1px; */
+  width: 100%;
+  height: 99%;
+  display:inline-block;
+}
+
+#contact{
+    /* border: solid yellowgreen 3px; */
+    height: 25%;
+    display: flexbox;
+}
+#footericonid{
+    /* border: solid purple 3px; */
+    height: fit-content
+}
+#contact p{
+    font-weight: bold;
+    display:block;
+    font-size: 4vw;
+    /* border: solid black 2px; */
+}
+#mobile{
+    /* border: solid yellow 2px; */
+    height:fit-content;
+    width: 99%;
+    display: inline-block;
+ }
+
+#mobile img{
+    margin-top:;
+    height: 3vw;
+    display: block;
+    float: left;
+}
+ #f{
+    margin-top: 1vw;
+    margin-left:1vw;
+}
+
+#email{
+   /* border: solid black 2px; */
+   height: 33%;
+   width: 100%;
+   display: inline-block;
+}
+
+#s{
+    float: left;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size:1vw;
+    font-weight: bold;
+}
+#email img{
+    height: 3vw;
+    float: left;
+} 
+#smedia{
+    /* border: solid yellowgreen 2px; */
+    height:23%;
+    width: 100%;
+    display: block;
+ }
+ #smedia img{
+    height: 3vw;
+    float: left;
+    margin-left: 5vw;
+    border-radius: 50%;
+    border:solid white 1px;
+ }
+ #smedia img:hover{
+    border:solid black 2px;
+ }
+ #sliding p{
+    font-size: 3vw;
+    font-weight: bold;
+    width: 10%;
+    height: 50%;
+    color:navy
+ }
+ marquee{
+    /* background-color: cornflowerblue; */
+    width: 100%;
+    height: 3vw;
+ }
+ 

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Hospital Management</title>
+
+    <link rel="stylesheet" href="about.css" />
+    <link rel="short icon" href="hospitalicon.png" />
+</head>
+
+<body>
+    <header id="headerid">
+        <div id="firstdiv">
+            <div id="topimage">
+                <img src="hospitallogo.jpg" alt="Hospital logo" id="logo" />
+            </div>
+
+            <div id="nav">
+                <ul id="ulid">
+                    <a href="https://bansalhospital.com/doctors-search/">
+                        <li>D.r</li>
+                    </a>
+                    <a href="https://bansalhospital.com/medical-departments/">
+                        <li>Service</li>
+                    </a>
+                    <a href="https://bansalhospital.com/about-bansal-hospital/">
+                        <li>About</li>
+                    </a>
+                    <li>Home</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div id="photoslidingdiv">
+        <marquee behavior="scroll" direction="right" scrollamount="15" id="sliding">
+            <p>BANSAL HOSPITAL</p>
+        </marquee>
+        <img src="bansal.png" alt="imges" id="images" />
+        <script type="text/javascript">
+            let image = document.getElementById("images");
+            let images = [
+                "bansal.png",
+                "doctorimages.jpg",
+                "cityscan.jpg",
+                "componder.webp",
+            ];
+            setInterval(function () {
+                let random = Math.floor(Math.random() * 4);
+                image.src = images[random];
+            }, 10000);
+        </script>
+    </div>
+    <h1 id="firsth1"><span>Welcome to Bansal Hospital</span></h1>
+    <div id="bodymaindiv">
+
+        <div id="bodyfirstdiv">
+            <p id="about">
+                Bansal Hospital, Bhopal, is a 300 bedded Super Specialty Hospital is
+                born of a dream. A dream that the people of Bhopal and Central India
+                get the best healthcare at affordable prices. A dream that the best
+                infrastructure and technology be provided to doctors so that they can
+                serve patients to best of their capability. A dream that our people
+                need not flee to metros for medical needs. This conviction inspired us
+                to make a world class hospital in the heart of the country where the
+                best infrastructure meets the best doctors to deliver cutting edge
+                technology with care. Bansal Hospital is built on a sprawling lake
+                view location. Bansal Hospital is designed with international
+                accredited hospital infrastructure norms. It is a centrally air
+                conditioned hospital to ensure optimum comfort with infection control.
+                It’s central sterilization unit designed & equipped by Getinge –
+                Sweden , has Fire alarm system from Schrack Germany and Central Oxygen
+                Supply Unit from Greece..
+            </p>
+        </div>
+
+        <div id="bodyseconddiv">
+            <img src="doctorimage.jpg" alt="image" id="imageid" />
+        </div>
+    </div>
+
+    <div id="mainfooter">
+        <div id="firstfooter">
+            <div id="contact">
+                <p>Contact : </p>
+            </div>
+            <div id="footericonid">
+                <div id="mobile">
+                    <img src="phoneicon.png" alt="icon">
+                    <p id="f"> +91-0755-4086000</p>
+                </div>
+                <div id="email">
+                    <img src="email.png" alt="">
+                    <p id="s"> contact@bansalhospital.net</p>
+                </div>
+                <div id="smedia">
+                    <a href="https://www.facebook.com/BansalHospitalBhopal/" target="_blank"> <img
+                            src="facebookcolorimg.png" alt=""></a>
+                    <a href="https://www.instagram.com/bansalhospital/?hl=en" target="_blank"> <img src="instagram.jpg"
+                            alt=""></a>
+                    <a href="https://www.youtube.com/channel/UCN7ptwypOwXPHA8Q66SOVAg" target="_blank"> <img
+                            src="youtube.png" alt=""></a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+ 
